@@ -1,0 +1,61 @@
+html{
+    font-size: 50 rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header h1{
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+nav{
+    width: 20rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+ul{
+     display: flex;
+     justify-content:space-between;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem; 
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* 1 rem = 16 pixel */
+/* REM is defined relative to the font size of the root element.  */
+/* viewwidth and viewheight can be max 100 and is responsive */
+.showcase-img{
+    width:95vw;
+    margin:1rem;
+
+}
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+.content{
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;/* makes the content center along x axis that is horizontally */
+    align-items: center;    /* makes the content center along y axis that is vertically */
+    font-size: 1.5rem;
+    height: 4rem;
+}
